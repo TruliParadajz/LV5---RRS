@@ -17,7 +17,7 @@ int main()
 	double **matrixA = new double*[length];
 	double **matrixB = new double*[length];
 	double **matrixC = new double*[length];
-	int brojThreadova = 4, buffer = 0;
+	int brojThreadova = 8, buffer = 0;
 	clock_t pocetak, kraj;
 	double MFLOPS = 0;
 	double n = 0;
@@ -43,7 +43,7 @@ int main()
 
 	//Mnozenje
 	pocetak = clock();
-#pragma omp parallel for private(buffer, n) reduction(+:n)
+#pragma omp parallel for private(buffer) reduction(+:n)
 	for (int i = 0; i < length; i++)
 	{
 		for (int k = 0; k < length; k++)
@@ -78,7 +78,6 @@ int main()
 	
 	float T = kraj - pocetak;
 	cout << "MFLOP= " << n / (T * pow(10, 6)) << "\n";
-
 	cout << "CPU user time:= " << T << "\n";
 	cout << "CPU real time:= " << T * 4 << "\n";
 	return 0;

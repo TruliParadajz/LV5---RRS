@@ -1,4 +1,5 @@
 ﻿  labos.cpp
-c:\users\filip\source\repos\lv5\lv5\labos.cpp(54): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-c:\users\filip\source\repos\lv5\lv5\labos.cpp(79): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
-  LV5.vcxproj -> C:\Users\Filip\source\repos\LV5\x64\Debug\LV5.exe
+c1xx : warning C4199: two-phase name lookup is not supported for C++/CLI, C++/CX, or OpenMP; use /Zc:twoPhase-
+c:\users\filip\desktop\lv5 - rrs\lv5\lv5\labos.cpp(54): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\filip\desktop\lv5 - rrs\lv5\lv5\labos.cpp(79): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
+  LV5.vcxproj -> C:\Users\Filip\Desktop\LV5 - RRS\LV5\x64\Debug\LV5.exe
