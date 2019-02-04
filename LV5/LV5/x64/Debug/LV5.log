@@ -1,0 +1,4 @@
+﻿  labos.cpp
+c:\users\filip\source\repos\lv5\lv5\labos.cpp(54): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\filip\source\repos\lv5\lv5\labos.cpp(79): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
+  LV5.vcxproj -> C:\Users\Filip\source\repos\LV5\x64\Debug\LV5.exe
